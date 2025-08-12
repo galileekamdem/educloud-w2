@@ -1,5 +1,8 @@
 # Educloud W2 - AWS Lambda + API Gateway + API Key
 
+Voici l'architecture de la solution déployée pour le défi Educloud — Semaine 2.
+architecture :  architecture.png
+
 ## Description
 Ce projet est une fonction AWS Lambda écrite en Node.js et exposée via une API REST AWS API Gateway.
 L'API est protégée par une clé API pour contrôler l'accès.
@@ -20,3 +23,4 @@ L'API est protégée par une clé API pour contrôler l'accès.
 7. Tester avec :
 ```bash
 curl -H "x-api-key: <TA_CLE_API>" "https://<invoke-url>/hello?message=Bonjour"
+
