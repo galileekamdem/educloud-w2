@@ -1,0 +1,5 @@
+### D. Fichier `SUBMISSION.txt`
+J’ai créé une fonction serverless sur AWS Lambda en Node.js et l’ai exposée via AWS API Gateway.
+J’ai configuré une clé API et un Usage Plan pour sécuriser l’accès.
+Ce projet m’a permis de comprendre les rôles IAM, l’intégration proxy Lambda et la sécurisation d’API REST.
+
